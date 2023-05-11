@@ -10,5 +10,6 @@ namespace Task1.DataAccessLayer
 
         public DbSet<Marka> Markas { get; set; }
         public DbSet<Modell> Models { get; set; }
+        public DbSet<Car> Cars { get; set; }
     }
 }

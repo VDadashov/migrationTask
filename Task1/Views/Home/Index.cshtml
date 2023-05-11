@@ -1,0 +1,12 @@
+﻿@model List<Marka>
+
+<ul>
+    @foreach (Marka marka in Model)
+    {
+        <li>
+            <a asp-controller="Modell" asp-action="index" asp-route-id="@marka.Id">
+                @marka.Name
+            </a>
+        </li>
+    }
+</ul>
